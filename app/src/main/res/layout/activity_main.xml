@@ -4,7 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    <Button
+        style="@style/MenuBtnStyle"
+        android:text="@string/btn1"
+        android:id="@+id/btnAdd"
+        android:onClick="accederer"/>
+    <Button
+        style="@style/MenuBtnStyle"
+        android:text="@string/btn2"
+        android:id="@+id/btnEdit"
+        android:onClick="accederer"/>
+    <Button
+        style="@style/MenuBtnStyle"
+        android:text="@string/btn3"
+        android:id="@+id/btnAllEnt"
+        android:onClick="accederer"/>
+
 
 
 </LinearLayout>
