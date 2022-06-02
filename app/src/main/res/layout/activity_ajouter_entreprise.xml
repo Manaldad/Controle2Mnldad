@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Ajouter_entreprise">
 
+    <EditText
+        style="@style/EditTxtStyl"
+        android:hint="Tapez votre raison sociale ..."
+        android:id="@+id/e1"/>
+    <EditText
+        style="@style/EditTxtStyl"
+        android:hint="Tapez votre adresse ..."
+        android:layout_below="@+id/e1"
+        android:id="@+id/e2"/>
+    <EditText
+        style="@style/EditTxtStyl"
+        android:hint="Tapez votre capitale ..."
+        android:layout_below="@+id/e2"
+        android:id="@+id/e3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e3">
+        <Button
+            style="@style/ActivitysButn"
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:text="@string/b1Ad"
+            android:onClick="Ajouter"/>
+        <Button
+            style="@style/ActivitysButn"
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:text="@string/b2Ad"
+            android:onClick="annuler"/>
+    </LinearLayout>
 
-
-
-
-</LinearLayout>
+</RelativeLayout>
