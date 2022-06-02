@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/stagiaire/Desktop/Controle(2)ManalDADDA-TDI202/app/src/main/res/drawable/forme.xml" value="0.163" />
+        <entry key="..\:/Users/stagiaire/Desktop/Controle(2)ManalDADDA-TDI202/app/src/main/res/layout/activity_ajouter_entreprise.xml" value="0.3375" />
+        <entry key="..\:/Users/stagiaire/Desktop/Controle(2)ManalDADDA-TDI202/app/src/main/res/layout/activity_edite_entreprise.xml" value="0.3375" />
+        <entry key="..\:/Users/stagiaire/Desktop/Controle(2)ManalDADDA-TDI202/app/src/main/res/layout/activity_lister_entreprise.xml" value="0.3375" />
         <entry key="..\:/Users/stagiaire/Desktop/Controle(2)ManalDADDA-TDI202/app/src/main/res/layout/activity_main.xml" value="0.3375" />
       </map>
     </option>

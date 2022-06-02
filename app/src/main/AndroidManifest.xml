@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Controle2Mnldad">
         <activity
+            android:name=".Lister_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".Edite_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".Ajouter_entreprise"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

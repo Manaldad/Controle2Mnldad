@@ -5,8 +5,7 @@
     <string name="btn1">Ajouter une entreprise</string>
 
     <string name="btn2">Editer une entreprise</string>
-    <string name="btn3">Lister une entreprise</string>
-
+    <string name="btn3">Lister de tous les entreprises</string>
 
 
 </resources>
